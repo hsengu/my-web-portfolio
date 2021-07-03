@@ -145,6 +145,36 @@ section {
     font-style: italic;
 }
 
+.about-me {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)),
+        url("../images/bg-aboutme.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.about-me .section-title {
+    color: black;
+}
+
+.my-work {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../images/bg-mywork.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.my-work .section-title {
+    color: white;
+}
+
 .contact {
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
