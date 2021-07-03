@@ -17,8 +17,8 @@ section {
     min-height: -o-calc(100vh - var(--header-height));
     min-height: -webkit-calc(100vh - var(--header-height));
     min-height: -moz-calc(100vh - var(--header-height));
-    min-height: 100vh;
-    overflow: hidden;
+    min-height: calc(100vh - var(--header-height));
+    overflow: auto;
 }
 
 .hero {
@@ -85,6 +85,7 @@ section {
     flex-wrap: wrap;
     align-items: center;
     height: 100vh;
+    min-height: fit-content;
     width: 100%;
     margin: 0 auto;
 }
@@ -94,8 +95,8 @@ section {
 }
 
 .flex-center {
-    min-width: 80%;
-    max-width: 80%;
+    margin-top: var(--header-height);
+    width: 80%;
 }
 
 .flex-bottom {
@@ -138,27 +139,29 @@ section {
     align-content: center;
 }
 
-.flex-row {
-    display: flex;
+.mywork-flex-row > a {
+    margin: 10px;
+}
+
+.mywork-button {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 325px;
+}
+
+.mywork-flex-row {
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
-    width: 100%;
 }
 
-.button {
-    border: 1px solid white;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    min-width: 150px;
-    width: 300px;
-    text-decoration: none;
-}
-
-.button h3 {
+.mywork-button h3 {
     color: white;
     font-size: 17px; 
     font-weight: medium;
@@ -166,7 +169,52 @@ section {
     width: 100%;
 }
 
-.button:hover {
+.mywork-button p {
+    color:white;
+    font-size: 14px;
+    width: 100%;
+}
+
+#ro-btn {
+    background-image: url("../images/icons/roinfo.jpg");
+    background-size: contain;
+}
+
+#ro-btn:hover{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url("../images/icons/roinfo.jpg");
+    background-size: contain;
+}
+
+#webpass-btn {
+    background-image: url("../images/icons/webpass.jpg");
+    background-size: contain;
+}
+
+#webpass-btn:hover{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url("../images/icons/webpass.jpg");
+    background-size: contain;
+}
+
+#seo-btn {
+    background-image: url("../images/icons/seo.jpg");
+    background-size: contain;
+}
+
+#seo-btn:hover{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url("../images/icons/seo.jpg");
+    background-size: contain;
+}
+
+.contact-button:hover, .mywork-button:hover {
     background: linear-gradient(
         rgba(255, 255, 255, 0.3), 
         rgba(255, 255, 255, 0.3));
@@ -226,6 +274,69 @@ section {
 
 .contact .section-title {
     color: white;
+}
+
+.contact-flex-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 33.333333%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.contact-flex-row > a {
+    margin: 10px;
+}
+
+.contact-button {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 75px;
+    min-height: 75px;
+}
+
+#email {
+    background-image: url("../images/icons/email.jpg");
+    background-size: contain;
+}
+
+#email:hover{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url("../images/icons/email.jpg");
+    background-size: contain;
+}
+
+#linkedin {
+    background-image: url("../images/icons/linkedin.jpg");
+    background-size: contain;
+}
+
+#linkedin:hover{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url("../images/icons/linkedin.jpg");
+    background-size: contain;
+}
+
+#github {
+    background-image: url("../images/icons/github.jpg");
+    background-size: contain;
+}
+
+#github:hover{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+        url("../images/icons/github.jpg");
+    background-size: contain;
 }
 
 footer {
