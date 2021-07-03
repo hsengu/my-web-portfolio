@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
-    --header-height: 100px;
+    --header-height: 75px;
     scroll-padding-top: var(--header-height);
 }
 
@@ -23,8 +24,8 @@ section {
 
 .hero {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)),
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
         url("../images/bg-hero.jpg");
     background-size: cover;
     background-position: center;
@@ -33,10 +34,11 @@ section {
 }
 
 .hero header {
-    padding: 20px 35px;
+    padding: 20px 30px;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4));
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3));
+    backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -47,16 +49,13 @@ section {
     width: 100%;
 }
 
-.hero header h1 {
-    font-weight: bold;
-    font-size: 1em;
-    color: #181b26;
-    margin: 0;
-    text-shadow: 0 0 10px rgba(0,0,0,.5);
+.name a:hover img {
+    filter: invert(.7);
 }
 
 .hero header nav {
     margin: 7px 0;
+    height: 100%;
 }
 
 .hero header nav ul {
@@ -68,14 +67,17 @@ section {
 }
 
 .hero header nav ul li:hover {
-    background-color: yellow;
+    filter: invert(.7);
 }
 
 .hero header nav ul li a {
+    color: white;
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 18px;
+    text-decoration: none;
     text-shadow: 0 0 10px rgba(0,0,0,.5);
+
 }
 
 .hero-flex {
@@ -144,13 +146,17 @@ section {
 
 .contact {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)),
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
         url("../images/bg-contact.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
+}
+
+.contact .section-title {
+    color: white;
 }
 
 footer {
@@ -159,6 +165,8 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: black;
+    color: white;
 }
 
 footer h2 {
