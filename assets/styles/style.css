@@ -41,6 +41,7 @@ section {
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3));
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -53,6 +54,7 @@ section {
 
 .name a:hover img {
     filter: invert(.7);
+    -webkit-filter: invert(.7);
 }
 
 .hero header nav {
@@ -70,6 +72,7 @@ section {
 
 .hero header nav ul li:hover {
     filter: invert(.7);
+    -webkit-filter: invert(.7);
 }
 
 .hero header nav ul li a {
