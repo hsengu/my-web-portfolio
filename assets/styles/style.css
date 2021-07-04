@@ -380,7 +380,20 @@ footer h2 {
     font-size: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
+    .mywork-button {
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        min-width: 275px;
+        min-height: 175px;
+    }
+}
+
+@media screen and (max-width: 900px ) {
     .about-me .section-title {
         color: black;
         text-align: right;
@@ -396,6 +409,30 @@ footer h2 {
         font-size: 24px;
     }
 
+    .mywork-button {
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        min-width: 225px;
+        min-height: 115px;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+    .mywork-button {
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        min-width: 175px;
+        min-height: 100px;
+    }
 }
 
 @media screen and (max-width: 490px) {
