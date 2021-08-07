@@ -31,3 +31,17 @@
     border-radius: 100%;
 }
 
+#my-work {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/bg-mywork.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+#carousel .card .content {
+    height: 500px;
+}
