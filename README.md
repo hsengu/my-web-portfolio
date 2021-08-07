@@ -1,7 +1,7 @@
 # Web Portfolio
 
 ## Description
-Web page for my professional portfolio. Lists information about me, some of the work I've accomplished as well as methods of contacting me. This page is designed to take into account screen sizes and will adjust content for your viewing pleasure. Visit it [here](https://hsengu.github.io/web-portfolio).
+Web page for my professional portfolio. Lists information about me, some of the work I've accomplished as well as methods of contacting me. This page is designed to take into account screen sizes and will adjust content for your viewing pleasure. Visit it [here](https://hsengu.github.io/my-web-portfolio).
 
 ## Built with
 - HTML
