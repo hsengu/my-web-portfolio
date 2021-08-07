@@ -42,7 +42,7 @@ function outputData(data) {
             else
                 var carouselItem = $("<div class='carousel-item'>");
             
-            var cardEl = $("<div class='card'>");
+            var cardEl = $("<div class='card " + element.name + " '>");
             var cardContentEl = $("<div class='card-content'>");
             var contentEl = $("<div class='content has-text-centered'>");
             var pEl = $("<p class='title'>");
@@ -77,11 +77,11 @@ function outputData(data) {
 
 $(document).ready(function() {
     // Check for click events on the navbar burger icon
-    $(".navbar-burger").click(function() {
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
-    });
+    // $(".navbar-burger").click(function() {
+    //     // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    //     $(".navbar-burger").toggleClass("is-active");
+    //     $(".navbar-menu").toggleClass("is-active");
+    // });
 
     getGitRepos();
 });
