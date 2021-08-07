@@ -24,13 +24,7 @@
 }
 
 #about-me {
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.6), 
-        rgba(255, 255, 255, 0.6));
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 100%;
+    background-color: rgb(56, 79, 106);
 }
 
 #about-me img {
