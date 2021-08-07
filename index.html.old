@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="cssheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Hok S. Uy - Portfolio</title>
+</head>
+<body>
+    - Top of page
+    <section id="top" class="hero">
+        <!-- Fixed navbar header -->
+        <header>
+            <div class="name">
+                <a href="#top"><img src="./assets/img/site-badge.png" alt="Hok Uy site badge banner" class="site-badge"/></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="flex">
+            <div class="flex-top"></div>
+            <div class="hero-content flex-center">
+                <h2>Hello World!</h2><br>
+                <p>
+                    My name is Hok. I am an IT Professional and Developer who's seeking new opportunities!
+                </p>
+            </div>
+            <div class="flex-bottom"></div>
+        </div>
+      </section>
+    <!-- Beginning of About Me Section -->
+    <section id="about-me" class="about-me">
+        <div class="flex">
+            <div class="flex-top"></div>
+            <div class=".content flex-center">
+                <img src="./assets/img/profile/me.jpg" alt="Hok's profile badge"></img>
+                <h2 class="section-title">About Me</h2><br>
+                <p>
+                    &emsp;I am a Computer Science graduate from California State University East Bay and entered the Information Technology field after graduating in 2017. I am a self-proclaimed tech nerd, take interests in everything related to technology, and have work experience ranging from building and deploying hardware, as well as aspects of coding and software development. I am currently seeking new opportunities to gain more experience building and deploying scalable applications utilizing cloud-based services such as AWS and Azure to name a few.
+                </p>
+            </div>
+            <div class="flex-bottom"></div>
+        </div>
+    </section>
+    <!-- Beginning of My Work section -->
+    <section id="my-work" class="my-work">
+        <div class="flex">
+            <div class="flex-top"><br></div>
+            <div class=".content flex-center">
+                <h2 class="section-title">My Work</h2>
+                <div class="content-flex">
+                    <div class="mywork-flex-row">
+                        <a href="https://github.com/hsengu/RagnarokInfo/">
+                            <div id="ro-btn" class="mywork-button">
+                                <h3>RagnarokInfo</h3>
+                            </div>
+                        </a>
+                        <a href="https://hsengu.github.io/web-password-generator/">
+                            <div id="webpass-btn" class="mywork-button">
+                                <h3>Password Generator</h3>
+                            </div>
+                        </a>
+                        <a href="https://hsengu.github.io/horiseon-webapp/">
+                            <div id="seo-btn" class="mywork-button">
+                                <h3>Horiseon Mockup</h3>
+                            </div>
+                        </a>
+                        <a href="#my-work">
+                            <div class="mywork-button">
+                                <div>
+                                    <h3>Placeholder 4</h3>
+                                    <p>Coming Soon!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#my-work">
+                            <div class="mywork-button">
+                                <div>
+                                    <h3>Placeholder 5</h3>
+                                    <p>Coming Soon!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#my-work">
+                            <div class="mywork-button">
+                                <div>
+                                    <h3>Placeholder 6</h3>
+                                    <p>Coming Soon!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-bottom"></div>
+        </div>
+    </section>
+    <!-- Beggining of Contact Section -->
+    <section id="contact" class="contact">
+        <div class="flex">
+            <div class="flex-top"></div>
+            <div class=".content flex-center">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="content-flex">
+                    <div class="contact-flex-row">
+                        <a href="mailto:hok.s.uy@hsengu.com">
+                            <div id="email" class="contact-button"></div>
+                        </a>
+                        <a href="https://linkedin.com/in/hoksuy/">
+                            <div id="linkedin" class="contact-button"></div>
+                        </a>
+                        <a href="https://github.com/hsengu/">
+                            <div id="github" class="contact-button"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-bottom"></div>
+        </div>
+    </section>
+    <footer>
+        &copy Copyrighted 2021 by Hok S. Uy
+    </footer>
+</body>
+</html>
