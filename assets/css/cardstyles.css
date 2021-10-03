@@ -57,3 +57,13 @@
     background-position: center;
     background-position: 100%;
 }
+
+.ecommerce-backend {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("https://github.com/hsengu/calorie-counter/raw/main/public/img/screenshots/001.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}

@@ -11,7 +11,17 @@ const exclude = [
     "observiumDB",
     "robot-gladiators",
     "run-buddy",
-    "hsengu"
+    "hsengu",
+    "zookeeper",
+    "u-develop-it",
+    "team-profile-generator",
+    "tech-blog",
+    "readme-generator",
+    "note-taker",
+    "just-tech-news",
+    "jest-another-rpg",
+    "employee-tracker",
+    "ecommerce-backend"
 ]
 
 function getGitRepos() {
