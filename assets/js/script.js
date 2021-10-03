@@ -19,7 +19,7 @@ const exclude = [
     "readme-generator",
     "note-taker",
     "just-tech-news",
-    "jest-another-rpg",
+    "jest-another-RPG",
     "employee-tracker",
     "ecommerce-backend"
 ]
